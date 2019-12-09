@@ -18,28 +18,26 @@
     </header>
 
     <form>
-        <h2>Escolha o instrumento que deseja comprar</h2>
         <div>
-            <a><img src="images/violaotipo.png" alt="violao"></a>
-            <a><img src="images/guitarratipo.png" alt="guitarra"></a>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" autocomplete="off" required/>
         </div>
-        <h2>Escolha o modelo</h2>
+
         <div>
-            <a><img src="images/modelo1.png" alt="Modelo 1"></a>
-            <a><img src="images/modelo2.png" alt="Modelo 2"></a>
-            <a><img src="images/modelo3.png" alt="Modelo 3"></a>
-            <a><img src="images/modelo4.png" alt="Modelo 4"></a>
+            <label for="email">Email: </label>
+            <input type="email" id="email" autocomplete="off" required/>
         </div>
-        <h2>Selecione o tipo de corda</h2>
+
         <div>
-            <a><img src="images/cordanylon.png" alt="Corda de Nylon"></a>
-            <a><img src="images/cordaaco.png" alt="Corda de Aço"></a>
+            <label for="telefone">Telefone: </label>
+            <input type="text" id="telefone" autocomplete="off" required/>
         </div>
-        <h2>Informações extras</h2>
-        <textarea rows="15" cols="100">
+
+        <textarea rows="10" cols="30">
 
         </textarea>
-        <input type="submit" value="Confirmar" />
+
+        <input type="submit" value="Enviar" />
     </form>
 
     <footer>
