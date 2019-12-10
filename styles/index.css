@@ -1,0 +1,11 @@
+/* FIGURA PRINCIPAL*/
+.figPrincipal img{
+    width: 100%;
+}
+
+/*VIOLÃO PERSONALIZADO*/
+.violaoPersonalizado{
+    background-image: url("images\fundomain.png");
+    width: 100%;
+    text-align: right;
+}
