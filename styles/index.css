@@ -8,7 +8,7 @@
     background-image: url("../images/fundomain.png");
     background-repeat: no-repeat;
     background-position-x: 20%;
-    height: 48em;
+    height: 47em;
     width: 100%;
     text-align: center;
     padding: 10% 0 0 25%;
@@ -54,6 +54,7 @@
 .containerVioloes div img{
     width: 100%;
 }
+
 
 .tiposVioloes h2{
     font-size: 3.5em;

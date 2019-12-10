@@ -40,7 +40,7 @@ footer{
     margin: 1em 0 2em 0;
 }
 
-.footerContainer div{
+.footerContainer .formPreencher{
     width: 25%;
     margin: 0 auto;
 }
@@ -50,7 +50,7 @@ footer{
     margin: 1em;
 }
 
-.footerContainer div:nth-child(eve) img{
+.footerContainer div:nth-child(even) img{
     width: 116px;
     margin: 1em;
 }

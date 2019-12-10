@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Compra</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/inter.css" />
 </head>
 <body>
     <header>
@@ -17,50 +18,46 @@
             </ol>
         </nav>
     </header>
-
-    <form>
-        <div>
-            <label for="nome">Nome: </label>
-            <input type="text" id="nome" autocomplete="off" required/>
-        </div>
-
-        <div>
-            <label for="email">Email: </label>
-            <input type="email" id="email" autocomplete="off" required/>
-        </div>
-
-        <div>
-            <label for="telefone">Telefone: </label>
-            <input type="text" id="telefone" autocomplete="off" required/>
-        </div>
-
-        <textarea rows="10" cols="30">
-
-        </textarea>
-
-        <input type="submit" value="Enviar" />
-    </form>
-
-    <div>
-      Avenida Salgador Salgado Filho, 1559, Tirol, Natal-RN <br/>
-      E-mail: luthier@contato.br | Telefone: (84) 4002-8922
-    </div>
-
+    <main>
+        <article class="fContato">
+            <form>
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" autocomplete="off" required/>
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" autocomplete="off" required/>
+                </div>
+                <div>
+                    <label for="telefone">Telefone: </label>
+                    <input type="text" id="telefone" autocomplete="off" required/>
+                </div>
+                <textarea rows="10" cols="30"></textarea>
+                
+                <input type="submit" value="Enviar" />
+            </form>
+            <address>
+                Avenida Salgador Salgado Filho, 1559, Tirol, Natal-RN <br/>
+                E-mail: luthier@contato.br | Telefone: (84) 4002-8922
+            </address>
+        </article>
+    </main>
     <footer>
-        <div>
+        <div class="footerContainer">
             <div>
                 <h3>Pague como quiser</h3>
-                <img src="images/carteira.png" alt="carteira">
+                <img src="images/carteira.png">
                 <p>Pague com cartão de crédito ou boleto. <br/> Você paga parcelado sem juros ou à vista no boleto. </p>
             </div>
             <div>
                 <h3>Frete Grátis</h3>
-                <img src="images/caminhao.png" alt="caminhao">
+                <img src="images/caminhao.png">
                 <p>Pague com cartão de crédito ou boleto. <br/> Você paga parcelado sem juros ou à vista no boleto. </p>
             </div>
             <div>
                 <h3>Qualidade Garantida</h3>
-                <img src="images/aprovacao.png" alt="aprovacao">
+                <img src="images/aprovacao.png">
                 <p>Pague com cartão de crédito ou boleto. <br/> Você paga parcelado sem juros ou à vista no boleto. </p>
             </div>
         </div>
