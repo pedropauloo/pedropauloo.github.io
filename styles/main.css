@@ -40,7 +40,7 @@ footer{
     margin: 1em 0 2em 0;
 }
 
-.footerContainer .formPreencher{
+.footerContainer div{
     width: 25%;
     margin: 0 auto;
 }
@@ -53,4 +53,15 @@ footer{
 .footerContainer div:nth-child(even) img{
     width: 116px;
     margin: 1em;
+}
+
+@media screen and (max-width: 600px){
+    .footerContainer{
+        flex-direction: column;
+    }
+
+    .footerContainer div{
+        width: 50%;
+        margin: 3em auto;
+    }
 }
