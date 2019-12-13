@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-position-x: 20%;
     height: 47em;
-    width: 100%;
     text-align: center;
     padding: 10% 0 0 25%;
 }
@@ -55,8 +54,42 @@
     width: 100%;
 }
 
-
 .tiposVioloes h2{
     font-size: 3.5em;
     margin-bottom: 3em;
+}
+
+@media screen and (max-width: 1200px){ 
+    .violaoPersonalizado{
+        background-size: 32em;
+        background-position-x: 0;
+        padding: 5em 0 0 22em;
+    }
+    .violaoPersonalizado h2{
+        font-size: 4em;
+    }
+    .violaoPersonalizado h3{
+        font-size: 2.2em;
+    }
+    .violaoPersonalizado a{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 750px){ 
+    .violaoPersonalizado{
+        background-position-x: -4em;
+        background-size: 21em;
+        padding: 5em 0 0 10em;
+        height: 30em;
+    }
+    .violaoPersonalizado h2{
+        font-size: 2em;
+    }
+    .violaoPersonalizado h3{
+        font-size: 1em;
+    }
+    .violaoPersonalizado a{
+        font-size: 1em;
+    }
 }
