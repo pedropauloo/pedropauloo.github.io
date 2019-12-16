@@ -50,6 +50,14 @@
     align-content: center;
 }
 
+.containerVioloes div h3{
+    margin: 1em 0 0.5em 0;
+}
+
+.containerVioloes div p{
+    margin: 0 2em;
+}
+
 .containerVioloes div img{
     width: 100%;
 }
@@ -77,6 +85,10 @@
 }
 
 @media screen and (max-width: 750px){ 
+    .tiposVioloes h2{
+        font-size: 3em;
+    }
+
     .violaoPersonalizado{
         background-position-x: -4em;
         background-size: 21em;

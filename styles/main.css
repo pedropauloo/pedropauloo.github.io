@@ -68,8 +68,13 @@ footer{
         flex-direction: column;
     }
 
-    .footerContainer div{
+    .footerContainer div:nth-child(1), .footerContainer div:nth-child(2){
         width: 50%;
         margin-bottom: 6em;
+    }
+
+    .footerContainer div:nth-child(3){
+        width: 50%;
+        margin-bottom: 2em;
     }
 }
