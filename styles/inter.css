@@ -97,6 +97,11 @@ main{
   text-align: center;
 }
 
+.mySlides img{
+  width: 100%;
+  
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
-    <link rel = "stylesheet" type = "text/css" href = "/styles/inter.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "styles/inter.css"/>
 </head>
 <body>
     <header>
@@ -23,19 +23,19 @@
         <article class="galeriaviolao">
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                    <img src="images/mostra1.png" style="width:100%">
+                    <img src="images/mostra1.png">
                     <div class="text"><p>VIOLÃO<br><br/>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                 </div>
                 
                 <div class="mySlides fade">
-                    <img src="images/mostra1.png" style="width:100%">
+                    <img src="images/mostra2.jpg">
                     <div class="text"><p>VIOLÃO<br/><br/>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                 </div>
                 
                 <div class="mySlides fade">
-                    <img src="images/mostra1.png" style="width:100%">
+                    <img src="images/mostra3.jpeg">
                     <div class="text"><p>VIOLÃO<br><br/>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                 </div>
@@ -86,17 +86,12 @@
     function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
         if (n > slides.length) {slideIndex = 1}
         if (n < 1) {slideIndex = slides.length}
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
         slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
     }
 </script>
 </html>
