@@ -1,40 +1,40 @@
 * {box-sizing:border-box}
 
 main{
-    text-align: center;
+  text-align: center;
 }
 
 /*COMPRA*/
 
 .compra{
-    padding: 4em 0;
-    text-align: center;
+  padding: 4em 0;
+  text-align: center;
 }
 
 .compra h2{
-    font-size: 2.5em;
-    margin: 1em;
+  font-size: 2.5em;
+  margin: 1em;
 }
 
 .compra div{
-    margin: 1em 0;
-    
+  margin: 1em 0;
+  
 }
 
 .compra div a{
-    margin: 3em 3em;
+  margin: 3em 3em;
 }
 
 .compra input{
-    display: block;
-    margin: 2em auto;
-    color: white;
-    background-color: #6A9454;
-    width: 150px;
-    height: 50px;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 3em;
+  display: block;
+  margin: 2em auto;
+  color: white;
+  background-color: #6A9454;
+  width: 150px;
+  height: 50px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 3em;
 }
 
 /* GALERIA */
@@ -249,7 +249,7 @@ address{
     font-size: 0.9em;
     padding: 1em 1em;
   }
-
+  
   figure:nth-child(even) .textLuthier{
     background-color: rgb(15, 15, 15);
     position: initial;
@@ -273,7 +273,7 @@ address{
     width: 100%;
     text-align: left;
   }
-
+  
   .fContato form{
     font-size: 1.1em;
   }
@@ -301,16 +301,16 @@ address{
     width: 45%;
     text-align: center;
   }
-
+  
   .articleLuthiers figure{ 
     margin: 3em;
     position: relative;
   }
-
+  
   .textLuthier a{
     font-size: 0.9em;
   }
-
+  
   figure:nth-child(even) .textLuthier{
     font-size: 1em;
   }
@@ -318,17 +318,17 @@ address{
   figure:nth-child(odd) .textLuthier{
     font-size: 1em;
   }
-
+  
   .fContato{
     padding: 2em 0 0 1em;
   }
-
+  
   .compra div a{
     margin: 3em 0;
-}
-
+  }
+  
   .compra textarea{
     width: 95%;
-}
-
+  }
+  
 }
